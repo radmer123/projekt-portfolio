@@ -44,7 +44,7 @@ def get_db():
     tags=["analityka"],
 )
 async def root():
-    return {"message": "Test kondycji API zakończony sukcesem"}
+    return {"message": "To jest sprawdzenie stanu interfejsu API: test zakończony sukcesem"}
 
 
 @app.get(
